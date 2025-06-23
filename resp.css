@@ -77,7 +77,54 @@ nav{
 .hero_s25_image_large_container{
     display: none;
 }
-.hero_s25_image_small_conatiner img{
+.hero_s25_image_small_container img{
     display: block;
+    
+}
+.card{
+     width: 95vw;
+    margin: auto;
+
+}
+.card_container{
+   
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    
+}
+.card_item{
+    flex-shrink: 0;
+    width: 80vw;
+    scroll-snap-align: start;
+}
+.card_heading{
+    font-size: 6vw;
+}
+.ai_tv_small_vedio{
+    display: block;
+     width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.ai_tv_large_vedio{
+    display: none;
+}
+.ai_tv_text{
+    flex-direction: column;
+    margin-top: 16vw;
+}
+.ai_tv_heading{
+    font-size: 40px;
+    width: 260px;
+
+}
+.ai_tv_p{
+    font-size: 20px;
+    width: 260px;
+}
+.ai_tv_learn_more_container{
+    width: 260px;
 }
 }
