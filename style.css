@@ -41,4 +41,160 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-size: 1rem;
+    font-family: "SamsungOne";
+}
+/* styling for navbar */
+.hero_vedio{
+  position: absolute;
+  z-index: -1;
+}
+.hero_vedio_large{
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center center;
+}
+.hero_vedio_small{
+  display: none;
+}
+
+header{
+position: relative;
+}
+
+nav{
+  max-width: 2000px;
+  height: 100px;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  color: white;
+  gap: 30px;
+}
+.nav_logo svg {
+  fill: white;
+}
+
+ .mega_menu_container, .nav_third_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mega_menu_container{
+  font-weight: 700;
+  gap: 20px;
+}
+.hamburger_menu{
+  display: none;
+}
+.nav_menu{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  /* gap: auto; */
+}
+.nav_third_div{
+  gap: 20px;
+}
+.nav_third_div svg{
+  fill: white;
+  height: 24px;
+  width: 24px;
+
+
+}
+.nav_search_container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 180px;
+  /* border: 1px solid red; */
+  gap: 8px;
+  border-radius: 50px;
+      background-color: rgba(255, 255, 255, 0.197);
+    border-color: rgba(255, 255, 255, 0.214);
+  padding:10px 20px;
+}
+.nav_search_container svg{
+  height: 16px;
+  width: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling for hero_section */
+.hero{
+  width: 90vw;
+  max-width: 2000px;
+  margin: auto;
+  height: calc(100vh - 100px);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.galaxy_s25{
+  font-size: 60px;
+  font-family: "SamsungSharpSans";
+  font-weight: 700;
+}
+
+.learn_more_section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  /* margin-left: 150px; */
+}
+.learn_more_button{
+  position: relative;
+}
+.learn_more_button::after{
+  content: '';
+  position:absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -3px;
+  border-radius: 50px;
+  background-color: #fff;
+  transition: 0.3s;
+
+}
+.learn_more_button:hover::after{
+  width: 100%;
+}
+.buy_button{
+  border: 1px solid white;
+  border-radius: 20px;
+  padding:9px 23px;
+}
+.buy_button:hover{
+  color: black;
+  background-color: #fff;
+ 
 }
