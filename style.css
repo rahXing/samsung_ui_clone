@@ -394,3 +394,98 @@ position: relative;
   width: 100%;
 
 }
+
+/* latest cards styling */
+
+.latest_cards{
+ 
+  margin: 50px 0px;
+/* overflow:auto; */
+  display:flex ;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.latest_heading{
+  /* padding: 30px; */
+   width: 95vw;
+  max-width: 2000px;
+  height: auto;
+  font-family: 'SamsungSharpSans';
+  font-size:clamp(2px, 3vw, 50px);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.latest_items{
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  margin: auto;
+  max-width: 2000px;
+  gap: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+
+}
+.latest_items_container{
+width:20vw;
+flex-shrink: 0;
+scroll-snap-align: start;
+
+
+}
+.latest_image{
+  overflow: hidden;
+  display: block;
+}
+
+.latest_image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.latest_image img:hover{
+  scale: 1.1;
+}
+.latest_p{
+  font-weight: 700;
+  font-size: 1.8vw;
+  text-align: center;
+}
+/* styling for footer section */
+
+.footer{
+  width: 95vw;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 2000px;
+  display: flex;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  
+  justify-content: space-between;
+  
+}
+.footer_section{
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  border-left:1px solid #d9d9d9 ;
+}
+.footer_section1{
+  border-left: 0px;
+}
+.footer_topic{
+  height: 3.88888889vw;
+        padding: 1.11111111vw 1.66666667vw;
+        font-size: 1.25vw;
+        font-weight: 700;
+}
+.footer ul li{
+  list-style: none;
+  padding: .48611111vw 1.66666667vw;
+        font-size: .97222222vw;
+        line-height: 1.13;
+}

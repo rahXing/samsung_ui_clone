@@ -137,4 +137,50 @@ nav{
   display: none;
 
 }
+.latest_heading{
+    font-size:clamp(18px,5vw,30px) ;
+}
+
+.latest_items_container{
+    width: 80vw;
+}
+.latest_p{
+    font-size: 5vw;
+}
+.footer{
+    flex-direction: column;
+    gap: 20px;
+    border: 0px;
+}
+.footer_section{
+
+    border: 0px;
+    position: relative;
+    gap: 20px;
+}
+.footer_links{
+   display: none;
+   transition: 0.5s;
+
+}
+.footer_topic{
+    height: auto;
+    font-size: 20px;
+    border:1px solid #d9d9d9 ;
+    border-radius: 10px;
+    
+    font-weight: 300;
+    padding: 10px 20px;
+    position: relative;
+    
+}
+.footer_topic::after{
+  content: '+';
+  right: 35px;
+  position: absolute;
+  font-size: 30px;
+  top: 4px;
+  
+}
+
 }
