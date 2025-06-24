@@ -459,7 +459,7 @@ scroll-snap-align: start;
 .footer{
   width: 95vw;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   max-width: 2000px;
   display: flex;
   border-top: 1px solid #d9d9d9;
@@ -488,4 +488,18 @@ scroll-snap-align: start;
   padding: .48611111vw 1.66666667vw;
         font-size: .97222222vw;
         line-height: 1.13;
+}
+.disclaimer{
+  color:#d9d9d9 ;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  margin: auto;
+  max-width: 2000px;
+  padding-bottom:50px;
+}
+.disclaimer p{
+  font-size: 14px;
 }
