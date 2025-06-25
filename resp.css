@@ -83,7 +83,7 @@ nav{
 }
 .card{
      width: 95vw;
-    margin: auto;
+    /* margin: 20px auto; */
 
 }
 .card_container{
